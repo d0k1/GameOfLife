@@ -4,7 +4,7 @@
 public class Main {
 	public static void main(String[] args) {
 		System.out.println("Test");
-		final MainFrame frame = new MainFrame(20, 20);
+		final MainFrame frame = new MainFrame(50, 50);
 		final Engine eng = new Engine(frame.getGrid());
 
 		new Blinker(frame.getGrid());
